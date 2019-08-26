@@ -352,6 +352,19 @@ header nav a:hover,
 header nav a:active {
   color: #e2ecea;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row no-wrap;
+}
+footer .contact {
+  margin-right: 2%;
+}
+footer .contact a {
+  text-decoration: none;
+  color: black;
+}
 .main {
   display: flex;
   justify-content: center;
