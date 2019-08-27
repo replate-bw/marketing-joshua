@@ -339,6 +339,9 @@ h3 {
   font-size: 2.5rem;
   margin-bottom: 3%;
 }
+img {
+  border-radius: 50%;
+}
 .fullscreen {
   background-image: linear-gradient(rgba(0, 0, 10, 0.6), rgba(0, 0, 0, 0.6)), url(../img/delivery.jpg);
   height: 90vh;
