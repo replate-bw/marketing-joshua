@@ -318,11 +318,29 @@ body {
   background: #f8fdf7;
   font-size: 1.8rem;
   line-height: 140%;
+  font-family: 'Work Sans', sans-serif;
 }
 .container {
   max-width: 80vw;
   width: 100%;
   margin: 0 auto;
+}
+.logo,
+.t-logo,
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 3rem;
+}
+h2 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
+img {
+  border-radius: 50%;
 }
 .fullscreen {
   background-image: linear-gradient(rgba(0, 0, 10, 0.6), rgba(0, 0, 0, 0.6)), url(../img/delivery.jpg);
@@ -337,19 +355,69 @@ header {
   height: 8%;
   background: #3d4d41;
 }
-header nav {
+header .navv {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   width: 70%;
 }
-header nav a {
+header .navv nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+header .navv a {
   text-decoration: none;
   color: #c6dad5;
 }
-header nav a:hover,
-header nav a:active {
+header .navv a:hover,
+header .navv a:active {
   color: #e2ecea;
+}
+header .logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo a {
+  text-decoration: none;
+  color: white;
+}
+.t-header {
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+  background: #3d4d41;
+}
+.t-header .t-navv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+}
+.t-header .t-navv nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.t-header .t-navv a {
+  text-decoration: none;
+  color: #c6dad5;
+}
+.t-header .t-navv a:hover,
+.t-header .t-navv a:active {
+  color: #e2ecea;
+}
+.t-header .t-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.t-header .t-logo a {
+  text-decoration: none;
+  color: white;
 }
 footer {
   display: flex;
@@ -363,6 +431,13 @@ footer .contact {
 footer .contact a {
   text-decoration: none;
   color: black;
+}
+.morerem {
+  font-size: 5rem;
+}
+span {
+  display: flex;
+  margin-bottom: 5%;
 }
 .main {
   display: flex;
@@ -378,6 +453,9 @@ footer .contact a {
   align-items: center;
   flex-flow: column;
 }
+.main .waste p {
+  text-align: center;
+}
 .main .button {
   display: flex;
   align-items: center;
@@ -388,28 +466,56 @@ footer .contact a {
   text-decoration: none;
   color: white;
 }
-.about {
+#about {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   margin-bottom: 100px;
 }
-.about .aboutsec {
+#about .aboutsec {
   display: flex;
   align-items: center;
   height: 10vh;
 }
-.about .explain {
+#about .explain {
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
-.about .explain .buis,
-.about .explain .volun,
-.about .explain .deli {
+#about .explain a {
+  border: 1px solid grey;
+  color: #3d4d41;
+  text-decoration: none;
+  padding: 2% 4%;
+  background: white;
+  margin-top: 5%;
+  display: inline-block;
+}
+#about .explain .buis,
+#about .explain .volun,
+#about .explain .deli {
   width: 30%;
 }
-.about .explain h2 {
+#about .explain h2 {
   margin-bottom: 3%;
   text-align: center;
+}
+.container .meet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.container .pictures {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-bottom: 10vw;
+}
+.container .pictures div {
+  width: 20%;
+}
+.container .pictures div img {
+  width: 100%;
 }
