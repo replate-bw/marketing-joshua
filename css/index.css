@@ -319,11 +319,20 @@ body {
   background: #f8fdf7;
   font-size: 1.8rem;
   line-height: 140%;
+  font-family: 'Work Sans', sans-serif;
 }
 .container {
   max-width: 80vw;
   width: 100%;
   margin: 0 auto;
+}
+.logo,
+.t-logo,
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+}
+h2 {
+  font-family: 'Lexend Deca', sans-serif;
 }
 .fullscreen {
   background-image: linear-gradient(rgba(0, 0, 10, 0.6), rgba(0, 0, 0, 0.6)), url(../img/delivery.jpg);
@@ -439,28 +448,28 @@ footer .contact a {
   text-decoration: none;
   color: white;
 }
-.about {
+#about {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   margin-bottom: 100px;
 }
-.about .aboutsec {
+#about .aboutsec {
   display: flex;
   align-items: center;
   height: 10vh;
 }
-.about .explain {
+#about .explain {
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
-.about .explain .buis,
-.about .explain .volun,
-.about .explain .deli {
+#about .explain .buis,
+#about .explain .volun,
+#about .explain .deli {
   width: 30%;
 }
-.about .explain h2 {
+#about .explain h2 {
   margin-bottom: 3%;
   text-align: center;
 }
@@ -468,4 +477,17 @@ footer .contact a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 20vh;
+}
+.container .pictures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.container .pictures div {
+  width: 20%;
+}
+.container .pictures div img {
+  width: 100%;
 }
