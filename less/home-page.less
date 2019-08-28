@@ -27,11 +27,14 @@ span{
             display:flex;
             align-items: center;
             justify-content: center;
-            
+            .buttonStyle(1px; solid; grey;);
+            background:white;
             margin-top:1%;
+            padding:.5% 2%;
                 a{
                     text-decoration: none;
-                    color:white;
+                    color:#3d4d41;
+                    
                 }
         }
 }
@@ -40,7 +43,7 @@ span{
     display:flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin-bottom:100px;
+    margin-bottom:10%;
         .aboutsec{
             display:flex;
             align-items: center;
@@ -70,7 +73,7 @@ span{
             width:30%;
             @media @phone{
                 width:70%;
-                margin-top:3%;
+                margin-top:10%;
 }
             }
             h2{
@@ -78,4 +81,46 @@ span{
                 text-align: center;
             }
         }
+}
+
+
+.contact{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow: column wrap;
+    margin-bottom:10%;
+    .contact-form{
+        margin-top:5%;
+        
+        .center-button{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+    }
+    .form-control{
+        width:50vw;
+        background:transparent;
+        border:none;
+        outline:none;
+        border-bottom:1px solid grey;
+        color:black;
+        margin-bottom:16px;
+    }
+    input{
+        height:45px;
+    }
+
+    .submit{
+        background:white;
+        color:#3d4d41;
+        .buttonStyle(1px; solid; grey;);
+        width:30%;
+        @media @phone{
+            width:60%;
+}
+    }
 }
