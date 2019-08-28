@@ -21,11 +21,18 @@ header{
             justify-content: flex-end;
             align-items: center;
             width:70%;
+
+            @media @phone{
+                justify-content: center;
+}
                 nav{
                     display:flex;
                     justify-content: space-between;
                     align-items: center;
                     width:40%;
+                    @media @phone{
+                        width:70%;
+        }
             }
             a{
                 text-decoration: none;

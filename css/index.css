@@ -307,6 +307,7 @@ template {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 html {
   font-size: 62.5%;
@@ -361,11 +362,21 @@ header .navv {
   align-items: center;
   width: 70%;
 }
+@media (max-width: 1000px) {
+  header .navv {
+    justify-content: center;
+  }
+}
 header .navv nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 40%;
+}
+@media (max-width: 1000px) {
+  header .navv nav {
+    width: 70%;
+  }
 }
 header .navv a {
   text-decoration: none;
@@ -482,6 +493,12 @@ span {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1000px) {
+  #about .explain {
+    flex-flow: column;
+    align-items: center;
+  }
+}
 #about .explain a {
   border: 1px solid grey;
   color: #3d4d41;
@@ -495,6 +512,14 @@ span {
 #about .explain .volun,
 #about .explain .deli {
   width: 30%;
+}
+@media (max-width: 1000px) {
+  #about .explain .buis,
+  #about .explain .volun,
+  #about .explain .deli {
+    width: 70%;
+    margin-top: 3%;
+  }
 }
 #about .explain h2 {
   margin-bottom: 3%;

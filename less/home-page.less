@@ -51,6 +51,11 @@ span{
             text-align: center;
             display:flex;
             justify-content: space-between;
+            @media @phone{
+                flex-flow:column;
+                align-items: center;
+                
+}
             a{
                 .buttonStyle(1px; solid; grey;);
                 color:#3d4d41;
@@ -63,7 +68,10 @@ span{
             
         .buis, .volun, .deli {
             width:30%;
-            
+            @media @phone{
+                width:70%;
+                margin-top:3%;
+}
             }
             h2{
                 margin-bottom:3%;
