@@ -12,9 +12,28 @@
         flex-flow: row wrap;
         margin-bottom:10vw;
         div{
-            width:20%;
+            width:25%;
+            height: 20%;
+            display: flex;
+            justify-content: space-around;
+            flex-flow: column;
+            align-items: center;
+            padding-bottom:3%;
+            @media @phone{
+                width:40%;
+                padding:3%;
+                text-align: center;
+}
+            h3{
+                margin-top:3%;
+                text-align: center;
+            }
             img{
-                width:100%;
+                width:50%;
+                height:200px;
+                @media @phone{
+                    width:100%;
+    }
             }
         }
     }
