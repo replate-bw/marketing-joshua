@@ -375,7 +375,7 @@ header .navv nav {
 }
 @media (max-width: 1000px) {
   header .navv nav {
-    width: 70%;
+    width: 90%;
   }
 }
 header .navv a {
@@ -421,7 +421,7 @@ header .logo a {
 }
 @media (max-width: 1000px) {
   .t-header .t-navv nav {
-    width: 70%;
+    width: 90%;
   }
 }
 .t-header .t-navv a {
