@@ -340,7 +340,8 @@ h3 {
   margin-bottom: 3%;
 }
 img {
-  border-radius: 50%;
+  border-radius: 30px;
+  border: 2px solid black;
 }
 .fullscreen {
   background-image: linear-gradient(rgba(0, 0, 10, 0.6), rgba(0, 0, 0, 0.6)), url(../img/delivery.jpg);
@@ -384,6 +385,7 @@ header .navv a {
 header .navv a:hover,
 header .navv a:active {
   color: #e2ecea;
+  border-bottom: 2px solid white;
 }
 header .logo {
   display: flex;
@@ -429,6 +431,7 @@ header .logo a {
 .t-header .t-navv a:hover,
 .t-header .t-navv a:active {
   color: #e2ecea;
+  border-bottom: 2px solid white;
 }
 .t-header .t-logo {
   display: flex;
@@ -603,6 +606,10 @@ span {
     padding: 3%;
     text-align: center;
   }
+}
+.container .pictures div a {
+  text-decoration: none;
+  color: black;
 }
 .container .pictures div h3 {
   margin-top: 3%;
